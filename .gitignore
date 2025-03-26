@@ -5,3 +5,9 @@ dist
 .vite-inspect
 .remote-assets
 components.d.ts
+
+
+# Add to .gitignore
+!.github/
+!.github/workflows/
+!.github/workflows/deploy.yml
