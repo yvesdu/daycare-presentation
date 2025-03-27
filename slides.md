@@ -82,66 +82,66 @@ layout: default
 class: px-4 py-4
 ---
 
-# The Problem {class="text-4xl font-bold"}
+# The Problem {class="text-4xl font-bold text-gray-800"}
 
 <div class="grid grid-cols-3 gap-4 mt-2">
-<div v-click class="flex flex-col p-3 rounded-lg bg-gradient-to-r from-red-900/50 to-red-800/30 border border-red-700/30">
+<div v-click class="flex flex-col p-3 rounded-lg bg-red-100 border border-red-300">
   <div class="flex items-center gap-2 mb-1">
-    <div class="p-1.5 bg-red-800/50 rounded-full">
-      <carbon:warning-alt class="text-yellow-400 text-base" />
+    <div class="p-1.5 bg-red-200 rounded-full">
+      <carbon:warning-alt class="text-red-700 text-base" />
     </div>
-    <span class="text-base font-bold text-yellow-400">Financial Burden</span>
+    <span class="text-base font-bold text-red-700">Financial Burden</span>
   </div>
-  <p class="text-white text-sm mt-1">Parents spend up to <span class="text-yellow-400 font-bold text-lg">33%</span> of income on childcare — more than housing!</p>
+  <p class="text-gray-700 text-sm mt-1">Parents spend up to <span class="text-red-700 font-bold text-lg">33%</span> of income on childcare — more than housing!</p>
 </div>
 
-<div v-click class="flex flex-col p-3 rounded-lg bg-gradient-to-r from-blue-900/50 to-blue-800/30 border border-blue-700/30">
+<div v-click class="flex flex-col p-3 rounded-lg bg-blue-100 border border-blue-300">
   <div class="flex items-center gap-2 mb-1">
-    <div class="p-1.5 bg-blue-800/50 rounded-full">
-      <carbon:time class="text-blue-300 text-base" />
+    <div class="p-1.5 bg-blue-200 rounded-full">
+      <carbon:time class="text-blue-700 text-base" />
     </div>
-    <span class="text-base font-bold text-blue-300">System Challenges</span>
+    <span class="text-base font-bold text-blue-700">System Challenges</span>
   </div>
-  <p class="text-white mb-1 text-sm">Finding reliable care is a nightmare:</p>
-  <ul class="list-disc ml-4 text-white space-y-0.5 text-xs">
+  <p class="text-gray-700 mb-1 text-sm">Finding reliable care is a nightmare:</p>
+  <ul class="list-disc ml-4 text-gray-700 space-y-0.5 text-xs">
     <li>Fragmented information across platforms</li>
     <li>Endless waitlists with no visibility</li>
     <li>No standardized quality metrics</li>
   </ul>
 </div>
 
-<div v-click class="flex flex-col p-3 rounded-lg bg-gradient-to-r from-green-900/50 to-green-800/30 border border-green-700/30">
+<div v-click class="flex flex-col p-3 rounded-lg bg-green-100 border border-green-300">
   <div class="flex items-center gap-2 mb-1">
-    <div class="p-1.5 bg-green-800/50 rounded-full">
-      <carbon:search class="text-green-300 text-base" />
+    <div class="p-1.5 bg-green-200 rounded-full">
+      <carbon:search class="text-green-700 text-base" />
     </div>
-    <span class="text-base font-bold text-green-300">Broken System</span>
+    <span class="text-base font-bold text-green-700">Broken System</span>
   </div>
-  <p class="text-white text-sm mt-1">Canadian families are struggling to find affordable, high-quality childcare options</p>
+  <p class="text-gray-700 text-sm mt-1">Canadian families are struggling to find affordable, high-quality childcare options</p>
 </div>
 </div>
 
 <div class="grid grid-cols-1 gap-3 mt-3">
 <div class="col-span-1">
-  <div v-click class="flex flex-col p-3 rounded-lg bg-gradient-to-r from-purple-900/50 to-purple-800/30 border border-purple-700/30">
+  <div v-click class="flex flex-col p-3 rounded-lg bg-purple-100 border border-purple-300">
     <div class="flex items-center gap-2 mb-2">
-      <div class="p-1.5 bg-purple-800/50 rounded-full">
-        <carbon:chart-line class="text-purple-300 text-base" />
+      <div class="p-1.5 bg-purple-200 rounded-full">
+        <carbon:chart-line class="text-purple-700 text-base" />
       </div>
-      <span class="text-base font-bold text-purple-300">Market Demand</span>
+      <span class="text-base font-bold text-purple-700">Market Demand</span>
     </div>
     <div class="grid grid-cols-2 gap-4">
       <div>
-        <p class="text-white text-sm mb-1">Key Statistics:</p>
-        <ul class="list-disc ml-4 text-white space-y-0.5 text-xs">
+        <p class="text-gray-700 text-sm mb-1">Key Statistics:</p>
+        <ul class="list-disc ml-4 text-gray-700 space-y-0.5 text-xs">
           <li>Over 54% of parents struggle to find care</li>
           <li>Waitlists exceed 2+ years in major cities</li>
           <li>Childcare costs rising faster than inflation</li>
         </ul>
       </div>
       <div>
-        <p class="text-white text-sm mb-1">Parents Want:</p>
-        <ul class="list-disc ml-4 text-white space-y-0.5 text-xs">
+        <p class="text-gray-700 text-sm mb-1">Parents Want:</p>
+        <ul class="list-disc ml-4 text-gray-700 space-y-0.5 text-xs">
           <li>Transparent pricing & availability</li>
           <li>Quality assurance & standards</li>
           <li>Simplified application process</li>
@@ -154,8 +154,8 @@ class: px-4 py-4
 
 <div class="absolute bottom-4 w-full left-0 px-4">
   <div v-click class="flex justify-center">
-    <div class="px-4 py-1.5 bg-gradient-to-r from-blue-800/40 to-purple-800/40 rounded-full border border-white/10">
-      <span class="text-sm font-bold text-white">Finding a solution to the childcare crisis in Canada</span>
+    <div class="px-4 py-1.5 bg-gray-100 rounded-full border border-gray-300">
+      <span class="text-sm font-bold text-gray-700">Finding a solution to the childcare crisis in Canada</span>
     </div>
   </div>
 </div>
@@ -171,97 +171,97 @@ layout: fact
 class: text-center
 ---
 
-# The Solution
+# The Solution {class="text-4xl font-bold text-gray-800"}
 
 <div class="grid grid-cols-3 gap-6 mt-8">
 <div v-click class="flex flex-col h-full">
-  <div class="bg-gradient-to-b from-blue-500/20 to-transparent p-6 rounded-lg border border-blue-400/30 h-full flex flex-col">
+  <div class="bg-blue-50 p-6 rounded-lg border border-blue-200 h-full flex flex-col">
     <div class="flex items-center gap-3 mb-4">
-      <div class="w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center">
+      <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
         <div class="text-2xl">🎯</div>
       </div>
-      <h3 class="text-xl font-bold text-blue-400">User-friendly Platform</h3>
+      <h3 class="text-xl font-bold text-blue-700">User-friendly Platform</h3>
     </div>
     <ul class="space-y-3 text-left flex-grow">
       <li class="flex items-start gap-2">
-        <div class="w-5 h-5 rounded-full bg-blue-500/30 flex items-center justify-center mt-0.5">
-          <carbon:checkmark class="text-blue-300 text-xs" />
+        <div class="w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center mt-0.5">
+          <carbon:checkmark class="text-blue-700 text-xs" />
         </div>
-        <span class="text-white">Match parents with verified providers</span>
+        <span class="text-gray-700">Match parents with verified providers</span>
       </li>
       <li class="flex items-start gap-2">
-        <div class="w-5 h-5 rounded-full bg-blue-500/30 flex items-center justify-center mt-0.5">
-          <carbon:checkmark class="text-blue-300 text-xs" />
+        <div class="w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center mt-0.5">
+          <carbon:checkmark class="text-blue-700 text-xs" />
         </div>
-        <span class="text-white">Real-time availability tracking</span>
+        <span class="text-gray-700">Real-time availability tracking</span>
       </li>
       <li class="flex items-start gap-2">
-        <div class="w-5 h-5 rounded-full bg-blue-500/30 flex items-center justify-center mt-0.5">
-          <carbon:checkmark class="text-blue-300 text-xs" />
+        <div class="w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center mt-0.5">
+          <carbon:checkmark class="text-blue-700 text-xs" />
         </div>
-        <span class="text-white">Quality assessment system</span>
+        <span class="text-gray-700">Quality assessment system</span>
       </li>
     </ul>
   </div>
 </div>
 
 <div v-click class="flex flex-col h-full">
-  <div class="bg-gradient-to-b from-green-500/20 to-transparent p-6 rounded-lg border border-green-400/30 h-full flex flex-col">
+  <div class="bg-green-50 p-6 rounded-lg border border-green-200 h-full flex flex-col">
     <div class="flex items-center gap-3 mb-4">
-      <div class="w-12 h-12 rounded-full bg-green-500/20 flex items-center justify-center">
+      <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center">
         <div class="text-2xl">📊</div>
       </div>
-      <h3 class="text-xl font-bold text-green-400">Data-Driven Insights</h3>
+      <h3 class="text-xl font-bold text-green-700">Data-Driven Insights</h3>
     </div>
     <ul class="space-y-3 text-left flex-grow">
       <li class="flex items-start gap-2">
-        <div class="w-5 h-5 rounded-full bg-green-500/30 flex items-center justify-center mt-0.5">
-          <carbon:checkmark class="text-green-300 text-xs" />
+        <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center mt-0.5">
+          <carbon:checkmark class="text-green-700 text-xs" />
         </div>
-        <span class="text-white">Transparent parent reviews</span>
+        <span class="text-gray-700">Transparent parent reviews</span>
       </li>
       <li class="flex items-start gap-2">
-        <div class="w-5 h-5 rounded-full bg-green-500/30 flex items-center justify-center mt-0.5">
-          <carbon:checkmark class="text-green-300 text-xs" />
+        <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center mt-0.5">
+          <carbon:checkmark class="text-green-700 text-xs" />
         </div>
-        <span class="text-white">Up-to-date availability</span>
+        <span class="text-gray-700">Up-to-date availability</span>
       </li>
       <li class="flex items-start gap-2">
-        <div class="w-5 h-5 rounded-full bg-green-500/30 flex items-center justify-center mt-0.5">
-          <carbon:checkmark class="text-green-300 text-xs" />
+        <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center mt-0.5">
+          <carbon:checkmark class="text-green-700 text-xs" />
         </div>
-        <span class="text-white">Provider comparisons</span>
+        <span class="text-gray-700">Provider comparisons</span>
       </li>
     </ul>
   </div>
 </div>
 
 <div v-click class="flex flex-col h-full">
-  <div class="bg-gradient-to-b from-purple-500/20 to-transparent p-6 rounded-lg border border-purple-400/30 h-full flex flex-col">
+  <div class="bg-purple-50 p-6 rounded-lg border border-purple-200 h-full flex flex-col">
     <div class="flex items-center gap-3 mb-4">
-      <div class="w-12 h-12 rounded-full bg-purple-500/20 flex items-center justify-center">
+      <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
         <div class="text-2xl">🌐</div>
       </div>
-      <h3 class="text-xl font-bold text-purple-400">Complete Childcare Hub</h3>
+      <h3 class="text-xl font-bold text-purple-700">Complete Childcare Hub</h3>
     </div>
     <ul class="space-y-3 text-left flex-grow">
       <li class="flex items-start gap-2">
-        <div class="w-5 h-5 rounded-full bg-purple-500/30 flex items-center justify-center mt-0.5">
-          <carbon:checkmark class="text-purple-300 text-xs" />
+        <div class="w-5 h-5 rounded-full bg-purple-100 flex items-center justify-center mt-0.5">
+          <carbon:checkmark class="text-purple-700 text-xs" />
         </div>
-        <span class="text-white">Licensed daycare providers</span>
+        <span class="text-gray-700">Licensed daycare providers</span>
       </li>
       <li class="flex items-start gap-2">
-        <div class="w-5 h-5 rounded-full bg-purple-500/30 flex items-center justify-center mt-0.5">
-          <carbon:checkmark class="text-purple-300 text-xs" />
+        <div class="w-5 h-5 rounded-full bg-purple-100 flex items-center justify-center mt-0.5">
+          <carbon:checkmark class="text-purple-700 text-xs" />
         </div>
-        <span class="text-white">Camps & seasonal programs</span>
+        <span class="text-gray-700">Camps & seasonal programs</span>
       </li>
       <li class="flex items-start gap-2">
-        <div class="w-5 h-5 rounded-full bg-purple-500/30 flex items-center justify-center mt-0.5">
-          <carbon:checkmark class="text-purple-300 text-xs" />
+        <div class="w-5 h-5 rounded-full bg-purple-100 flex items-center justify-center mt-0.5">
+          <carbon:checkmark class="text-purple-700 text-xs" />
         </div>
-        <span class="text-white">After-school & extended care</span>
+        <span class="text-gray-700">After-school & extended care</span>
       </li>
     </ul>
   </div>
@@ -269,8 +269,8 @@ class: text-center
 </div>
 
 <div v-click class="mt-12 text-center">
-  <div class="inline-block px-6 py-3 bg-gradient-to-r from-blue-500/30 via-green-500/30 to-purple-500/30 rounded-full border border-white/10">
-    <span class="text-xl font-bold">One platform for all your childcare needs</span>
+  <div class="inline-block px-6 py-3 bg-gray-100 rounded-full border border-gray-300">
+    <span class="text-xl font-bold text-gray-700">One platform for all your childcare needs</span>
   </div>
 </div>
 
@@ -278,28 +278,28 @@ class: text-center
 layout: fact
 ---
 
-# Market Opportunity
+# Market Opportunity {class="text-4xl font-bold text-gray-800"}
 
 <div class="grid grid-cols-3 gap-8 mt-8">
 <div v-click class="text-center">
-  <div class="text-3xl font-bold text-blue-500">$30B</div>
-  <div class="text-sm opacity-75">Federal Investment</div>
+  <div class="text-3xl font-bold text-blue-600">$30B</div>
+  <div class="text-sm text-gray-600">Federal Investment</div>
 </div>
 
 <div v-click class="text-center">
-  <div class="text-3xl font-bold text-green-500">250K</div>
-  <div class="text-sm opacity-75">New Childcare Spaces</div>
+  <div class="text-3xl font-bold text-green-600">250K</div>
+  <div class="text-sm text-gray-600">New Childcare Spaces</div>
 </div>
 
 <div v-click class="text-center">
-  <div class="text-3xl font-bold text-purple-500">1.6M</div>
-  <div class="text-sm opacity-75">Canadian Families Need Care</div>
+  <div class="text-3xl font-bold text-purple-600">1.6M</div>
+  <div class="text-sm text-gray-600">Canadian Families Need Care</div>
 </div>
 </div>
 
 <div class="text-center mt-12 text-xl">
-  <div v-click>By 2026, costs will drop to <span class="text-green-500 font-bold">$10/day</span></div>
-  <div v-click class="mt-4 opacity-75">Creating unprecedented demand for providers & better access</div>
+  <div v-click>By 2026, costs will drop to <span class="text-green-600 font-bold">$10/day</span></div>
+  <div v-click class="mt-4 text-gray-600">Creating unprecedented demand for providers & better access</div>
 </div>
 
 <!--
@@ -464,68 +464,68 @@ layout: center
 class: text-center
 ---
 
-# Our Roadmap
-## Next 12 Months
+# Our Roadmap {class="text-4xl font-bold text-gray-800"}
+## Next 12 Months {class="text-2xl text-gray-600 mt-2"}
 
 <div class="grid grid-cols-3 gap-8 mt-12">
 <div v-click class="flex flex-col items-center">
-  <div class="w-16 h-16 rounded-full bg-blue-500/20 flex items-center justify-center mb-4">
+  <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center mb-4 border border-blue-200">
     <div class="text-2xl">🎯</div>
   </div>
-  <h3 class="font-bold text-xl mb-4 text-blue-500">Product-Market Fit</h3>
-  <ul class="text-left space-y-2 text-gray-300">
+  <h3 class="font-bold text-xl mb-4 text-blue-700">Product-Market Fit</h3>
+  <ul class="text-left space-y-2 text-gray-700">
     <li class="flex items-center gap-2">
-      <div class="w-1.5 h-1.5 rounded-full bg-blue-500"></div>
+      <div class="w-1.5 h-1.5 rounded-full bg-blue-600"></div>
       Enhance user experience
     </li>
     <li class="flex items-center gap-2">
-      <div class="w-1.5 h-1.5 rounded-full bg-blue-500"></div>
+      <div class="w-1.5 h-1.5 rounded-full bg-blue-600"></div>
       Implement feedback
     </li>
     <li class="flex items-center gap-2">
-      <div class="w-1.5 h-1.5 rounded-full bg-blue-500"></div>
+      <div class="w-1.5 h-1.5 rounded-full bg-blue-600"></div>
       Refine algorithms
     </li>
   </ul>
 </div>
 
 <div v-click class="flex flex-col items-center">
-  <div class="w-16 h-16 rounded-full bg-green-500/20 flex items-center justify-center mb-4">
+  <div class="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center mb-4 border border-green-200">
     <div class="text-2xl">📈</div>
   </div>
-  <h3 class="font-bold text-xl mb-4 text-green-500">User Growth</h3>
-  <ul class="text-left space-y-2 text-gray-300">
+  <h3 class="font-bold text-xl mb-4 text-green-700">User Growth</h3>
+  <ul class="text-left space-y-2 text-gray-700">
     <li class="flex items-center gap-2">
-      <div class="w-1.5 h-1.5 rounded-full bg-green-500"></div>
+      <div class="w-1.5 h-1.5 rounded-full bg-green-600"></div>
       Expand beyond Ottawa
     </li>
     <li class="flex items-center gap-2">
-      <div class="w-1.5 h-1.5 rounded-full bg-green-500"></div>
+      <div class="w-1.5 h-1.5 rounded-full bg-green-600"></div>
       Onboard providers
     </li>
     <li class="flex items-center gap-2">
-      <div class="w-1.5 h-1.5 rounded-full bg-green-500"></div>
+      <div class="w-1.5 h-1.5 rounded-full bg-green-600"></div>
       Build partnerships
     </li>
   </ul>
 </div>
 
 <div v-click class="flex flex-col items-center">
-  <div class="w-16 h-16 rounded-full bg-purple-500/20 flex items-center justify-center mb-4">
+  <div class="w-16 h-16 rounded-full bg-purple-100 flex items-center justify-center mb-4 border border-purple-200">
     <div class="text-2xl">⚡</div>
   </div>
-  <h3 class="font-bold text-xl mb-4 text-purple-500">Platform Development</h3>
-  <ul class="text-left space-y-2 text-gray-300">
+  <h3 class="font-bold text-xl mb-4 text-purple-700">Platform Development</h3>
+  <ul class="text-left space-y-2 text-gray-700">
     <li class="flex items-center gap-2">
-      <div class="w-1.5 h-1.5 rounded-full bg-purple-500"></div>
+      <div class="w-1.5 h-1.5 rounded-full bg-purple-600"></div>
       Real-time tracking
     </li>
     <li class="flex items-center gap-2">
-      <div class="w-1.5 h-1.5 rounded-full bg-purple-500"></div>
+      <div class="w-1.5 h-1.5 rounded-full bg-purple-600"></div>
       Smart booking
     </li>
     <li class="flex items-center gap-2">
-      <div class="w-1.5 h-1.5 rounded-full bg-purple-500"></div>
+      <div class="w-1.5 h-1.5 rounded-full bg-purple-600"></div>
       Provider integration
     </li>
   </ul>
@@ -533,8 +533,8 @@ class: text-center
 </div>
 
 <div v-click class="mt-12 text-center">
-  <div class="inline-block px-6 py-3 bg-gradient-to-r from-blue-500/20 via-green-500/20 to-purple-500/20 rounded-full">
-    <span class="text-xl">Building the future of childcare access in Canada</span>
+  <div class="inline-block px-6 py-3 bg-gray-100 rounded-full border border-gray-300">
+    <span class="text-xl text-gray-700">Building the future of childcare access in Canada</span>
   </div>
 </div>
 
@@ -542,39 +542,39 @@ class: text-center
 layout: fact
 ---
 
-# The Ask
+# The Ask {class="text-4xl font-bold text-gray-800"}
 
 <div class="grid grid-cols-2 gap-12 mt-8">
 <div v-click>
   <h3 class="font-bold text-2xl mb-4 flex items-center gap-2">
-    <div class="text-yellow-400">💰</div> Seed Funding: $200K
+    <div class="text-yellow-600">💰</div> Seed Funding: $200K
   </h3>
   <div class="pl-4 space-y-3">
-    <div class="flex items-center gap-3 bg-blue-500/10 p-3 rounded-lg border border-blue-500/20">
-      <div class="w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center">
-        <carbon:application-web class="text-blue-400" />
+    <div class="flex items-center gap-3 bg-blue-50 p-3 rounded-lg border border-blue-200">
+      <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center">
+        <carbon:application-web class="text-blue-700" />
       </div>
       <div>
-        <div class="font-semibold text-white">Tech Development</div>
-        <div class="text-sm opacity-70 text-gray-300">40% · Platform enhancements</div>
+        <div class="font-semibold text-gray-800">Tech Development</div>
+        <div class="text-sm text-gray-600">40% · Platform enhancements</div>
       </div>
     </div>
-    <div class="flex items-center gap-3 bg-green-500/10 p-3 rounded-lg border border-green-500/20">
-      <div class="w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center">
-        <carbon:chart-line class="text-green-400" />
+    <div class="flex items-center gap-3 bg-green-50 p-3 rounded-lg border border-green-200">
+      <div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center">
+        <carbon:chart-line class="text-green-700" />
       </div>
       <div>
-        <div class="font-semibold text-white">Marketing & Growth</div>
-        <div class="text-sm opacity-70 text-gray-300">40% · User acquisition</div>
+        <div class="font-semibold text-gray-800">Marketing & Growth</div>
+        <div class="text-sm text-gray-600">40% · User acquisition</div>
       </div>
     </div>
-    <div class="flex items-center gap-3 bg-purple-500/10 p-3 rounded-lg border border-purple-500/20">
-      <div class="w-8 h-8 rounded-full bg-purple-500/20 flex items-center justify-center">
-        <carbon:enterprise class="text-purple-400" />
+    <div class="flex items-center gap-3 bg-purple-50 p-3 rounded-lg border border-purple-200">
+      <div class="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center">
+        <carbon:enterprise class="text-purple-700" />
       </div>
       <div>
-        <div class="font-semibold text-white">Operations</div>
-        <div class="text-sm opacity-70 text-gray-300">20% · Team & partnerships</div>
+        <div class="font-semibold text-gray-800">Operations</div>
+        <div class="text-sm text-gray-600">20% · Team & partnerships</div>
       </div>
     </div>
   </div>
@@ -582,43 +582,43 @@ layout: fact
 
 <div v-click>
   <h3 class="font-bold text-2xl mb-4 flex items-center gap-2">
-    <div class="text-blue-400">🤝</div> How You Can Help
+    <div class="text-blue-700">🤝</div> How You Can Help
   </h3>
   <div class="pl-4 space-y-3">
-    <div class="flex items-center gap-3 bg-cyan-500/10 p-3 rounded-lg border border-cyan-500/20">
-      <div class="w-8 h-8 rounded-full bg-cyan-500/20 flex items-center justify-center">
-        <carbon:network-4 class="text-cyan-400" />
+    <div class="flex items-center gap-3 bg-cyan-50 p-3 rounded-lg border border-cyan-200">
+      <div class="w-8 h-8 rounded-full bg-cyan-100 flex items-center justify-center">
+        <carbon:network-4 class="text-cyan-700" />
       </div>
       <div>
-        <div class="font-semibold text-white">Network Support</div>
-        <div class="text-sm opacity-70 text-gray-300">Introductions to investors & partners</div>
+        <div class="font-semibold text-gray-800">Network Support</div>
+        <div class="text-sm text-gray-600">Introductions to investors & partners</div>
       </div>
     </div>
-    <div class="flex items-center gap-3 bg-orange-500/10 p-3 rounded-lg border border-orange-500/20">
-      <div class="w-8 h-8 rounded-full bg-orange-500/20 flex items-center justify-center">
-        <carbon:share-knowledge class="text-orange-400" />
+    <div class="flex items-center gap-3 bg-orange-50 p-3 rounded-lg border border-orange-200">
+      <div class="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center">
+        <carbon:share-knowledge class="text-orange-700" />
       </div>
       <div>
-        <div class="font-semibold text-white">Community Awareness</div>
-        <div class="text-sm opacity-70 text-gray-300">Spread the word to parents & providers</div>
+        <div class="font-semibold text-gray-800">Community Awareness</div>
+        <div class="text-sm text-gray-600">Spread the word to parents & providers</div>
       </div>
     </div>
-    <div class="flex items-center gap-3 bg-indigo-500/10 p-3 rounded-lg border border-indigo-500/20">
-      <div class="w-8 h-8 rounded-full bg-indigo-500/20 flex items-center justify-center">
-        <carbon:idea class="text-indigo-400" />
+    <div class="flex items-center gap-3 bg-indigo-50 p-3 rounded-lg border border-indigo-200">
+      <div class="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center">
+        <carbon:idea class="text-indigo-700" />
       </div>
       <div>
-        <div class="font-semibold text-white">Strategic Feedback</div>
-        <div class="text-sm opacity-70 text-gray-300">Insights to improve our platform</div>
+        <div class="font-semibold text-gray-800">Strategic Feedback</div>
+        <div class="text-sm text-gray-600">Insights to improve our platform</div>
       </div>
     </div>
-    <div class="flex items-center gap-3 bg-pink-500/10 p-3 rounded-lg border border-pink-500/20">
-      <div class="w-8 h-8 rounded-full bg-pink-500/20 flex items-center justify-center">
-        <carbon:partnership class="text-pink-400" />
+    <div class="flex items-center gap-3 bg-pink-50 p-3 rounded-lg border border-pink-200">
+      <div class="w-8 h-8 rounded-full bg-pink-100 flex items-center justify-center">
+        <carbon:partnership class="text-pink-700" />
       </div>
       <div>
-        <div class="font-semibold text-white">Provider Introductions</div>
-        <div class="text-sm opacity-70 text-gray-300">Connect us with childcare providers</div>
+        <div class="font-semibold text-gray-800">Provider Introductions</div>
+        <div class="text-sm text-gray-600">Connect us with childcare providers</div>
       </div>
     </div>
   </div>
@@ -626,8 +626,8 @@ layout: fact
 </div>
 
 <div v-click class="text-center mt-12">
-  <div class="inline-block px-6 py-3 bg-gradient-to-r from-blue-500/20 via-green-500/20 to-purple-500/20 rounded-full">
-    <span class="text-xl font-bold text-white">Join us in fixing Canada's childcare crisis!</span>
+  <div class="inline-block px-6 py-3 bg-gray-100 rounded-full border border-gray-300">
+    <span class="text-xl font-bold text-gray-700">Join us in fixing Canada's childcare crisis!</span>
   </div>
 </div>
 
