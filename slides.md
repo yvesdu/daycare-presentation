@@ -306,6 +306,73 @@ layout: fact
 Emphasize the massive market potential
 Highlight government support and policy changes
 -->
+---
+layout: fact
+---
+
+<h1 style="font-size: 1.75rem; color: #4682B4; font-weight: normal;">Revenue Model <span style="font-size: 1.25rem; color: #666;"></span></h1>
+
+<div class="mt-1 mb-2">
+  <span style="font-size: 1.2rem;" class="text-gray-700 font-semibold flex items-center gap-2">
+    <span>💰</span> Revenue Streams
+  </span>
+</div>
+
+<div class="grid grid-cols-2 gap-4 mt-2">
+  <div class="bg-amber-50 p-2 rounded-lg border border-amber-200">
+    <div class="flex items-center mb-1">
+      <div class="w-6 h-6 mr-2 flex items-center justify-center">🏪</div>
+      <h3 class="text-lg font-bold text-amber-700">Daycare Ads & Premium Listings</h3>
+    </div>
+    <div class="text-sm">Yelp-style business model with:</div>
+    <ul class="mt-1 ml-4 list-disc text-sm text-gray-700">
+      <li>Featured placement in search results</li>
+      <li>Enhanced profiles with virtual tours</li>
+      <li>Marketing tools for providers</li>
+    </ul>
+  </div>
+
+  <div class="bg-blue-50 p-2 rounded-lg border border-blue-200">
+    <div class="flex items-center mb-1">
+      <div class="w-6 h-6 mr-2 flex items-center justify-center">👨‍👩‍👧‍👦</div>
+      <h3 class="text-lg font-bold text-blue-700">Parent Subscriptions</h3>
+    </div>
+    <div class="text-sm">Premium features for parents:</div>
+    <ul class="mt-1 ml-4 list-disc text-sm text-gray-700">
+      <li>Waitlist alerts & priority access</li>
+      <li>Childcare concierge service</li>
+      <li>Personalized recommendations</li>
+    </ul>
+  </div>
+</div>
+
+<div class="grid grid-cols-2 gap-4 mt-3">
+  <div class="bg-green-50 p-2 rounded-lg border border-green-200">
+    <div class="flex items-center mb-1">
+      <div class="w-6 h-6 mr-2 flex items-center justify-center">🏛️</div>
+      <h3 class="text-lg font-bold text-green-700">Government Data & Reports</h3>
+    </div>
+    <div class="text-sm">Data services for policy makers:</div>
+    <ul class="mt-1 ml-4 list-disc text-sm text-gray-700">
+      <li>Childcare demand & supply analytics</li>
+      <li>Regional accessibility reports</li>
+      <li>Policy impact evaluation</li>
+    </ul>
+  </div>
+
+  <div class="bg-purple-50 p-2 rounded-lg border border-purple-200">
+    <div class="flex items-center mb-1">
+      <div class="w-6 h-6 mr-2 flex items-center justify-center">🏢</div>
+      <h3 class="text-lg font-bold text-purple-700">Corporate Partnerships</h3>
+    </div>
+    <div class="text-sm">HR benefits integration:</div>
+    <ul class="mt-1 ml-4 list-disc text-sm text-gray-700">
+      <li>Employee childcare benefits platform</li>
+      <li>Workplace childcare solutions</li>
+      <li>Enterprise family support programs</li>
+    </ul>
+  </div>
+</div>
 
 ---
 layout: two-cols
