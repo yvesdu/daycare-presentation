@@ -640,7 +640,8 @@ layout: end
 [getdaycare.space](https://getdaycare.space) · Making childcare accessible for all
 
 <div class="pt-4 opacity-75">
-Contact us: info@getdaycare.space
+  <div class="mb-2">Patrick Ngenzi<br>JPNgenzi@gmail.com</div>
+  <div>Yves Dusenge<br>dusengeyves@gmail.com</div>
 </div>
 
 <style>
